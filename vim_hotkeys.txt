@@ -1,0 +1,33 @@
+~~~~VIM HOTKEYS~~~~
+:u - undo
+:e - explorer (will create new file or explore existing file)
+:pwd - print working directory
+:ls - show files in directory
+:set nu || number - turn on absolute line numbers
+:m <n> - move line to line n
+ddkP || ddjP - move item up/down a line 
+
+----Navigation----
+l - right
+h - left
+j - up
+k - down
+l - right
+0 - beginning of line
+$ - end of line
+o - insert below line
+i - insert where cursor lies
+s - insert and delete cursor character
+a - insert after cursor (append)
+dd - delete line
+
+----Exiting Entering----
+^z - switch to terminal (fg - foreground to go back to vim) 
+^[ - cancel
+^v - select entire line
+:e ^d - show files in current directory
+:q - quit
+:wq - quit & save
+:w - (write) save
+
+
